@@ -9,6 +9,7 @@
         "preview": "vite preview",
         "build-only": "vite build",
         "type-check": "vue-tsc --build --force",
+        "test": "vitest --environment jsdom",
         "test:unit": "vitest run --environment jsdom",
         "devtools": "./node_modules/.bin/vue-devtools",
         "lint": "ESLINT_USE_FLAT_CONFIG=false eslint --fix --max-warnings 5 --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --ignore-path .gitignore .",
